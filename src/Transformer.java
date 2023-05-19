@@ -22,23 +22,38 @@ public class Transformer {
     public String getName() {
         return name;
     }
+
+    public String setName(String name) {
+        this.name = name;
+        return name;
+    }
+
     public String getFirstGun(){
         return firstGun;
     }
     public String getSecondGunGun(){
         return secondGun;
     }
-    public void setFirstGun(String newFirstGun) {
+    public String setFirstGun(String newFirstGun) {
         this.firstGun = newFirstGun;
+        return firstGun;
     }
-    public void setSecondGun(String newSecondGun) {
+    public String setSecondGun(String newSecondGun) {
         this.secondGun = newSecondGun;
+        return secondGun;
     }
     public String getBody() {
         return body;
     }
-    public void setPaint(String newPaint) {
+
+    public String setBody(String body) {
+        this.body = body;
+        return body;
+    }
+
+    public String setPaint(String newPaint) {
         this.paint = newPaint;
+        return paint;
     }
     public String getPaint() {
         return paint;
@@ -46,8 +61,9 @@ public class Transformer {
     public String getFraction() {
         return fraction;
     }
-    public void setFraction(String newFraction) {
+    public String setFraction(String newFraction) {
         this.fraction = newFraction;
+        return fraction;
     }
 
     public boolean doQualityCheck() {
